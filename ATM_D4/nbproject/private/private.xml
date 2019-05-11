@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/APPL_DDDD/ATM_New/test/com/appl/atm/model/AccountTest.java</file>
-            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/APPL_DDDD/ATM_New/test/com/appl/atm/model/WithdrawalTest.java</file>
-            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/APPL_DDDD/ATM_New/test/com/appl/atm/model/BalanceInquiryTest.java</file>
-            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/APPL_DDDD/ATM_New/test/com/appl/atm/model/BankDatabaseTest.java</file>
+            <file>file:/C:/Users/Naufal%20Rajabi/Documents/GitHub/ATM_D4_kel3/ATM_D4/src/com/appl/atm/model/Customer.java</file>
+            <file>file:/C:/Users/Naufal%20Rajabi/Documents/GitHub/ATM_D4_kel3/ATM_D4/src/com/appl/atm/model/Account.java</file>
+            <file>file:/C:/Users/Naufal%20Rajabi/Documents/GitHub/ATM_D4_kel3/ATM_D4/src/com/appl/atm/model/Constants.java</file>
         </group>
     </open-files>
 </project-private>
