@@ -10,8 +10,6 @@ package com.appl.atm.model;
  * @author mufqi
  */
 public interface IAccount {
-    void setAccountNumber(int accountNumber);
-    int getAccountNumber();
-    void setPinNumber(int pinNumber);
-    int getPinNumber();
+    void credit();
+    void debit();
 }

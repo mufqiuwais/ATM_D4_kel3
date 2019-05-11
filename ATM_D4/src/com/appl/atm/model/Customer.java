@@ -54,7 +54,4 @@ public abstract class Customer implements IAccount {
     public void setTotalBalance(double totalBalance) {
         this.totalBalance = totalBalance;
     }
-    
-    public abstract void credit(double amount);
-    public abstract void debit (double amount);
 }
