@@ -7,7 +7,7 @@ package com.appl.atm.model;
 
 /**
  *
- * @author Annazar
+ * @author Mufqi Uwais
  */
 public class Account {
     

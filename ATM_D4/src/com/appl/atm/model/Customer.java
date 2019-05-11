@@ -9,7 +9,7 @@ package com.appl.atm.model;
  *
  * @author Naufal Rajabi
  */
-public abstract class Customer {
+public abstract class Customer implements IAccount {
     private int accountNumber;
     private int pinNumber;
     private double availabelBalance;
@@ -46,7 +46,4 @@ public abstract class Customer {
     public void setTotalBalance(double totalBalance) {
         this.totalBalance = totalBalance;
     }
-    
-    public abstract void credit(double amount);
-    public abstract void debit (double amount);
 }
