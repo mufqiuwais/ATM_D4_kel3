@@ -9,8 +9,19 @@ package com.appl.atm.model;
  *
  * @author zefan
  */
-public class Siswa {
+public class Siswa extends Customer{
+
+    @Override
+    public void credit(double amount) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void debit(double amount) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
-    
+
     
 }
