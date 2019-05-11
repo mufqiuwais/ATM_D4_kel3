@@ -12,9 +12,22 @@ package com.appl.atm.model;
 public abstract class Customer {
     private int accountNumber;
     private int pinNumber;
-    private double availabelBalance;
+    private double availableBalance;
     private double totalBalance;
+    
+    public abstract void credit(double amount);
+    public abstract void debit (double amount);
 
+    public Customer(int accountNumber, int pinNumber,
+            double availableBalance, double totalBalance)
+    {
+        this.accountNumber = accountNumber;
+        this.pinNumber = pinNumber;
+        this.availableBalance = availableBalance;
+        this.totalBalance = totalBalance;
+    }
+
+    
     public int getAccountNumber() {
         return accountNumber;
     }
@@ -31,12 +44,12 @@ public abstract class Customer {
         this.pinNumber = pinNumber;
     }
 
-    public double getAvailabelBalance() {
-        return availabelBalance;
+    public double getAvailableBalance() {
+        return availableBalance;
     }
 
-    public void setAvailabelBalance(double availabelBalance) {
-        this.availabelBalance = availabelBalance;
+    public void setAvailableBalance(double availableBalance) {
+        this.availableBalance = availableBalance;
     }
 
     public double getTotalBalance() {
@@ -47,6 +60,5 @@ public abstract class Customer {
         this.totalBalance = totalBalance;
     }
     
-    public abstract void credit(double amount);
-    public abstract void debit (double amount);
+    
 }
