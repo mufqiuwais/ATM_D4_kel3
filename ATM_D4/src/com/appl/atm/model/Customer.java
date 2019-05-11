@@ -23,18 +23,26 @@ public abstract class Customer implements IAccount {
         this.totalBalance = totalBalance;
     }
 
+    @Override
     public int getAccountNumber() {
         return accountNumber;
     }
 
+    /**
+     *
+     * @param accountNumber
+     */
+    @Override
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
 
+    @Override
     public int getPinNumber() {
         return pinNumber;
     }
 
+    @Override
     public void setPinNumber(int pinNumber) {
         this.pinNumber = pinNumber;
     }
